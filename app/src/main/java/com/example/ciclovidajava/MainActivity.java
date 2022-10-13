@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_main);
 
-        tv = findViewById(R.id.tv1); // Busca el elemento con id "tv1" en la clase R (generada automáticamente a partir de los xml)
+        tv = findViewById(R.id.tv1);
         sb = new StringBuilder(""); // Inicializa el StringBuilder para empezar a añadir contenido
 
         addLinea("onCreate");
